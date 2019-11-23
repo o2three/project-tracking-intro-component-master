@@ -38,7 +38,7 @@ ul {
     padding-top: 1rem;
     font-family: "Barlow Condensed", sans-serif;
     font-weight: 700;
-    padding: 1rem 1rem 4rem 1rem;
+    padding: 1rem 1rem 3rem 1rem;
     margin: 0 auto;
     align-items: center; }
     #header-home .nav-container .menu-wrap {
@@ -239,7 +239,7 @@ ul {
     top: 14%;
     right: 8%;
     width: 85%;
-    max-height: 40%;
+    max-height: 45%;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
     visibility: hidden;
     overflow: hidden;
@@ -266,7 +266,7 @@ ul {
       background: #a0a1ac;
       opacity: 0.5; }
   .background {
-    height: 68vh; }
+    height: 65vh; }
   #section-main {
     flex-direction: column-reverse; }
     #section-main .section-b .device-image {
