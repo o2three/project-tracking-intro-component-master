@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Barlow|Barlow+Condensed:400,700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -43,25 +44,23 @@ ul {
     align-items: center; }
     #header-home .nav-container .menu-wrap {
       width: 38%; }
-    #header-home .nav-container ul {
-      display: flex;
-      text-transform: uppercase;
-      padding-right: 3rem; }
-    #header-home .nav-container li {
-      padding: 1rem 1.5rem; }
-    #header-home .nav-container input.toggler {
-      display: none; }
-    #header-home .nav-container .separator {
-      display: inline-block;
-      height: 2px;
-      width: 2px;
-      padding: 2px;
-      background: #a0a1ac;
-      align-self: center;
-      border-radius: 50%;
-      opacity: 0.5; }
-    #header-home .nav-container hr {
-      display: none; }
+      #header-home .nav-container .menu-wrap input.toggler {
+        opacity: 0; }
+      #header-home .nav-container .menu-wrap ul {
+        display: flex;
+        text-transform: uppercase;
+        padding-right: 3rem; }
+        #header-home .nav-container .menu-wrap ul li {
+          padding: 1rem 1.5rem; }
+      #header-home .nav-container .menu-wrap .separator {
+        display: flex;
+        height: 2px;
+        width: 2px;
+        padding: 2px;
+        background: #a0a1ac;
+        align-self: center;
+        border-radius: 50%;
+        opacity: 0.5; }
     #header-home .nav-container a {
       text-decoration: none;
       color: #242942;
@@ -238,8 +237,8 @@ ul {
     position: fixed;
     top: 14%;
     right: 8%;
-    width: 85%;
-    max-height: 45%;
+    width: 86%;
+    max-height: 49%;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
     visibility: hidden;
     overflow: hidden;
@@ -253,18 +252,17 @@ ul {
       width: 300px !important;
       margin: 0.75rem !important;
       padding: 0.75rem !important; }
-    .menu-wrap .menu li {
-      padding: 0.5rem !important;
-      margin: 0.3rem auto !important;
-      text-align: center !important;
-      text-transform: uppercase;
-      width: 90% !important; }
-    .menu-wrap .menu .separator {
-      display: none !important; }
-    .menu-wrap .menu hr {
-      display: block !important;
-      background: #a0a1ac;
-      opacity: 0.5; }
+      .menu-wrap .menu ul li {
+        padding: 0.5rem !important;
+        margin: 0.3rem auto !important;
+        text-align: center !important;
+        text-transform: uppercase;
+        width: 90% !important; }
+      .menu-wrap .menu ul .separator {
+        padding: 1px !important;
+        border: none !important;
+        border-radius: 0 !important;
+        background: #a0a1ac !important; }
   .background {
     height: 65vh; }
   #section-main {
