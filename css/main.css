@@ -262,7 +262,8 @@ ul {
         padding: 1px !important;
         border: none !important;
         border-radius: 0 !important;
-        background: #a0a1ac !important; }
+        background: #a0a1ac !important;
+        opacity: 0.3 !important; }
   .background {
     height: 65vh; }
   #section-main {
